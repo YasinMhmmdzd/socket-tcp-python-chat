@@ -7,3 +7,4 @@ it works on TCP network protocol and using socket python module
 for install socket in your system : ```pip install socekt```
 > ### colorama
 for install colorama in your system : ```pip install colorama```
+GUI version coming soon !!!!!!!
