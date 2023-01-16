@@ -19,6 +19,6 @@ while True:
     client.send(pm.encode())
     rec_msg = client.recv(1024)
     rec_msg = str(rec_msg)
-    print(Fore.YELLOW + rec_msg.decode)
+    print(Fore.YELLOW + rec_msg.decode())
 
 client.close()
