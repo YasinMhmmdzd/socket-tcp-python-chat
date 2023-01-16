@@ -15,7 +15,7 @@ while True:
     data = connection.recv(1024)
     data = str(data)
     print(Fore.YELLOW + data)
-    pm = input(Fore.BLUE + ">>>").encode()
-    connection.send(pm)
+    pm = input(Fore.BLUE + ">>>")
+    connection.send(pm.encode())
 
 connection.close()
